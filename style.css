@@ -5,41 +5,82 @@
 }
 a{
     text-decoration: none;
-   
+   color: black;
 }
 
+
 body{
-    background-color: rgb(182, 175, 175);
+    background-color: rgb(240, 226, 226);
 }
 header{
-    background-color: rgb(168, 2, 2);
+    background-color: rgb(224, 2, 2);
     height: 65px;
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    
+    border-bottom: 5px black solid;
+   
 }
+
 h4, h5{
     text-decoration: underline;
     font-size: 2rem;
+    text-align: center;
 }
+
 .layout{
     display: flex;
     flex-direction: row;
     width: 100vw;
 }
+
 #info{
     width: 50%;
     font-family: sans-serif;
     font-size: 1.5rem;
     padding-top: 15px;
     padding-left: 15px;
+    margin-bottom: 20px;
 }
 
 #course{
 width: 25%;
 font-size: 2rem;
 padding-left: 15px;
+text-align: center;
 
 }
 
+#navbar{
+font-size: 2rem;
+position: fixed;
+margin-left: 50px;
+}
+
+#footer{
+    background-color:rgb(224, 2, 2);
+    margin: 0;
+    height: 70px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border-top: solid black 3px;
+}
+
+a:hover{
+background-color: red;
+color: rgb(240, 226, 226);
+
+}
+
+.external{
+    width: 20px;
+}
+.button2, .button1{
+    margin: 15px;
+    border: solid black 3px;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px #917f7f;
+}
