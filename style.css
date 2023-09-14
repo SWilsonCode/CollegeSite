@@ -1,24 +1,45 @@
 *{
     margin: 0;
+    list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+   
+}
+
+body{
+    background-color: rgb(182, 175, 175);
 }
 header{
-    background-color: purple;
+    background-color: rgb(168, 2, 2);
     height: 65px;
     text-align: center;
     padding: 20px;
     font-size: 30px;
+    
+}
+h4, h5{
+    text-decoration: underline;
+    font-size: 2rem;
+}
+.layout{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
 }
 #info{
     width: 50%;
-    font-size:large;
-    padding-top: 30px;
-    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-left: 15px;
 }
+
 #course{
-    display: flex;
-    left: 50%;
-  
+width: 25%;
+font-size: 2rem;
+padding-left: 15px;
+
 }
-body{
-    background-color: rgb(197, 216, 221);
-}
+
