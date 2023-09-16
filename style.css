@@ -2,6 +2,7 @@
     margin: 0;
     list-style-type: none;
    
+   
 }
 a{
     text-decoration: none;
@@ -32,6 +33,7 @@ h4, h5{
     display: flex;
     flex-direction: row;
     width: 100vw;
+   
 }
 
 #info{
@@ -52,9 +54,10 @@ text-align: center;
 }
 
 #navbar{
-font-size: 2rem;
+width: 25%;
+font-size: 1.5rem;
 position: fixed;
-margin-left: 50px;
+
 }
 
 #footer{
@@ -70,8 +73,8 @@ margin-left: 50px;
 a:hover{
 background-color: red;
 color: rgb(240, 226, 226);
-
 }
+
 
 .external{
     width: 20px;
